@@ -26,6 +26,10 @@
   display: inline-block;
 }
 
+.theme-dark .header__theme-menu-button:hover {
+  outline: 1px solid rgb(255 0 112 / 0.4);
+}
+
 @media (prefers-color-scheme: dark) {
 
   :root {
@@ -44,5 +48,9 @@
 
   .theme-auto .header__rec::after {
     display: inline-block;
+  }
+
+  .theme-auto .header__theme-menu-button:hover {
+    outline: 1px solid rgb(255 0 112 / 0.4);
   }
 }
