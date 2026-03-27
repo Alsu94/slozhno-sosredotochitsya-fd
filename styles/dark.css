@@ -16,6 +16,7 @@
   --accent-text-color: #000028;
   --section-color: #ff0070;
   --text-color: #f1b2ce;
+  --border-color: rgb(255 0 112 / 0.4);
 }
 
 .theme-dark .header__rec {
@@ -24,10 +25,6 @@
 
 .theme-dark .header__rec::after {
   display: inline-block;
-}
-
-.theme-dark .header__theme-menu-button:hover {
-  outline: 1px solid rgb(255 0 112 / 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -48,9 +45,5 @@
 
   .theme-auto .header__rec::after {
     display: inline-block;
-  }
-
-  .theme-auto .header__theme-menu-button:hover {
-    outline: 1px solid rgb(255 0 112 / 0.4);
   }
 }
